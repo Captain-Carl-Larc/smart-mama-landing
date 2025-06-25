@@ -1,3 +1,5 @@
+import Banner from "./banner";
+
 function SocialProof() {
   const testimonials = [
     {
@@ -34,20 +36,11 @@ function SocialProof() {
           </div>
         ))}
       </div>
-      <div className="call-to-action bg-gray-800 p-8 mt-12 rounded-lg shadow-lg">
-        <h3 className="text-2xl text-white font-semibold text-center mt-8 mb-4">
-          Join Our Community
-        </h3>
-        <p className="text-center text-white mb-6">
-          Become part of our growing community and experience the benefits
-          firsthand.
-        </p>
-        <div className="flex justify-center">
-          <button className="bg-blue-500 text-white px-6 py-3 rounded hover:bg-blue-600 transition duration-300">
-            Sign Up Now
-          </button>
-        </div>
-      </div>
+      <Banner
+        title="Join Our Community Today!"
+        description="Sign up now to start sharing your videos and connecting with others!"
+        buttonText="Sign Up Now"
+      />
     </section>
   );
 }
