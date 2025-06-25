@@ -3,7 +3,7 @@ function Hero() {
     <img src="https://picsum.photos/1920/1080" alt="Placeholder banner image" />
   );
   return (
-    <section className="pt-20 md:pt-40 grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 gap-4 p-8 bg-gray-100">
+    <section className="pt-20 md:pt-32 grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 gap-2 md:gap-4 p-4 md:p-8 bg-gray-100">
       <div id="text-container">
         <h1 className="text-4xl font-bold mb-4">Welcome to Our Website</h1>
         <p className="text-lg mb-6">
@@ -19,8 +19,8 @@ function Hero() {
           </button>
         </div>
       </div>
-      <div id="visual-container">
-        <div className="hero-image-container rounded-xl shadow-lg overflow-hidden">
+      <div id="visual-container" className="flex justify-center items-center">
+        <div className="hero-image-container rounded-xl shadow-lg overflow-hidden ">
           {heroImage}
         </div>
       </div>
