@@ -10,22 +10,22 @@ import Banner from './components/banner'
 import Footer from './components/footer'
 
 function App() {
-  return(
+  return (
     <>
-      <Navbar/>
+      <Navbar />
       <Hero />
       <Features />
       <Benefits />
       <SocialProof />
       <Faqs />
       <Banner
-        title="Don't wait!"
-        description="Contact us to get instant consultation!"
-        buttonText="Contact Us Now!"
+        title="Your Confident Pregnancy Awaits!"
+        description="Don't delay the personalized support you deserve. Connect with our experts today to discuss your unique needs and begin your journey to optimal health and an empowered birth."
+        buttonText="Schedule Your Free Consultation"
       />
       <Footer />
     </>
-  )
+  );
 }
 
 export default App
