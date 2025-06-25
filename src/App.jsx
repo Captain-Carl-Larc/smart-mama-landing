@@ -1,4 +1,5 @@
-
+//imports
+import Hero from './components/hero'
 import './App.css'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
       <h1 className="text-6xl font-black">
         HOme page
       </h1>
+      <Hero />
     </>
   )
 }
