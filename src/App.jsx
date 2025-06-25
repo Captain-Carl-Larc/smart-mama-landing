@@ -4,6 +4,7 @@ import Navbar from './components/navbar'
 import Features from './components/features'
 import './App.css'
 import Benefits from './components/benefits'
+import SocialProof from './components/socialProof'
 
 function App() {
   return(
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Features />
       <Benefits />
+      <SocialProof />
     </>
   )
 }
