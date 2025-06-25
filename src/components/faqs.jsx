@@ -1,29 +1,28 @@
 function Faqs() {
   const faqs = [
     {
-      question: "How do I create an account?",
+      question:
+        "What makes SmartMama different from other pregnancy resources?",
       answer:
-        'Click the "Sign Up" button in the top right corner and follow the registration process.',
+        "SmartMama offers a unique blend of personalized health and wellness plans, expert-led birth preparation, and a nurturing community, all designed to give you comprehensive support and peace of mind throughout your unique journey. We focus on empowering you.",
     },
     {
-      question: "I forgot my password. What should I do?",
+      question:
+        "Who are the SmartMama experts, and what are their qualifications?",
       answer:
-        'Click on "Forgot Password" on the login page and follow the instructions sent to your email.',
+        "Our team comprises highly qualified professionals, including certified prenatal nutritionists, experienced birth educators, doulas, and maternal wellness coaches. Each expert is dedicated to providing evidence-based, compassionate support tailored to your specific needs.",
     },
     {
-      question: "How do I update my profile information?",
+      question:
+        "Is SmartMama suitable for all stages of pregnancy, and beyond?",
       answer:
-        'Go to "My Account" settings and select "Edit Profile" to make changes.',
-    },{
-        question: "Can I change my username?",
-        answer:
-            'Yes, you can change your username in the "Account Settings" section.',
-        },
-        {
-        question: "How do I delete my account?",
-        answer:
-            'To delete your account, go to "Account Settings" and select "Delete Account". Please note that this action is irreversible.',
-    }
+        "Yes! SmartMama programs are designed to support you from preconception through all trimesters, labor, delivery, and even into the vital postpartum period. Our guidance adapts to your evolving needs, ensuring continuous support.",
+    },
+    {
+      question: "How do I access the personalized plans and community support?",
+      answer:
+        "Getting started is easy! After clicking 'Start My SmartMama Journey,' you'll complete a brief assessment to help us tailor your experience. You'll then gain immediate access to your personalized resources, connect with our experts, and join our welcoming community portal.",
+    },
   ];
 
   return (
@@ -34,11 +33,6 @@ function Faqs() {
             Frequently Asked Questions
           </span>
         </h2>
-        <p className="text-start text-white mb-8 mt-2">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-          alias deleniti rerum nulla magni assumenda maiores porro reiciendis
-          doloribus amet.
-        </p>
       </div>
       <div className="join join-vertical bg-base-100 w-screen max-w-4xl mx-auto my-8 p-4 md:p-8 flex justify-center">
         {faqs.map((faq, idx) => (
