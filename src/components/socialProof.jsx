@@ -37,9 +37,9 @@ function SocialProof() {
         ))}
       </div>
       <Banner
-        title="Join Our Community Today!"
-        description="Sign up now to start sharing your videos and connecting with others!"
-        buttonText="Sign Up Now"
+        title="Ready for Your Confident Pregnancy?"
+        description="Take the first step towards personalized wellness, expert birth preparation, and unwavering support. Your journey to a healthier, happier motherhood begins here."
+        buttonText="Start My SmartMama Journey"
       />
     </section>
   );
