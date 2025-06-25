@@ -15,7 +15,7 @@ function Hero() {
           motherhood with peace of mind.
         </p>
         <div className="buttons-container flex space-between justify-center items-center md:justify-start">
-          <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-300">
+          <button className="bg-blue-500 font-bold cursor-pointer text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-300">
             Discover Your Support
           </button>
         </div>
