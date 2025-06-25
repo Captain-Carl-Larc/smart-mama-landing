@@ -11,9 +11,11 @@ function Features() {
             <div className="flex gap-1 items-start justify-start ">
               <FontAwesomeIcon
                 icon={faHouse}
-                className="text-green-700 text-xl"
+                className=" text-gray-900 text-xl"
               />
-              <h3 className="text-xl font-semibold mb-2">Feature One</h3>
+              <h3 className="text-xl font-semibold mb-2  text-gray-900">
+                Feature One
+              </h3>
             </div>
             <p className="text-gray-700">
               Description of feature one goes here. It provides great value to
@@ -24,9 +26,11 @@ function Features() {
             <div className="flex gap-1 items-start justify-start ">
               <FontAwesomeIcon
                 icon={faHouse}
-                className="text-green-700 text-xl"
+                className=" text-gray-900 text-xl"
               />
-              <h3 className="text-xl font-semibold mb-2">Feature One</h3>
+              <h3 className="text-xl font-semibold mb-2  text-gray-900">
+                Feature One
+              </h3>
             </div>
             <p className="text-gray-700">
               Description of feature one goes here. It provides great value to
@@ -37,9 +41,11 @@ function Features() {
             <div className="flex gap-1 items-start justify-start ">
               <FontAwesomeIcon
                 icon={faHouse}
-                className="text-green-700 text-xl"
+                className=" text-gray-900 text-xl"
               />
-              <h3 className="text-xl font-semibold mb-2">Feature One</h3>
+              <h3 className="text-xl font-semibold  text-gray-900 mb-2">
+                Feature One
+              </h3>
             </div>
             <p className="text-gray-700">
               Description of feature one goes here. It provides great value to

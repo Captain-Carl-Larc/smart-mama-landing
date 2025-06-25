@@ -5,8 +5,10 @@ function Hero() {
   return (
     <section className="pt-20 md:pt-32 grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 gap-2 md:gap-4 p-4 md:p-8 bg-gray-100">
       <div id="text-container">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Our Website</h1>
-        <p className="text-lg mb-6">
+        <h1 className="text-4xl font-bold mb-4  text-gray-900">
+          Welcome to Our Website
+        </h1>
+        <p className="text-lg mb-6 text-gray-900">
           Discover amazing content and connect with our community. We are
           dedicated to providing you with the best experience possible.
         </p>
