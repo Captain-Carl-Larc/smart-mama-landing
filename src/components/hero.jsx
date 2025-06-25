@@ -1,6 +1,9 @@
 function Hero() {
   const heroImage = (
-    <img src="https://picsum.photos/1920/1080" alt="Placeholder banner image" />
+    <img
+      src="https://images.pexels.com/photos/7155530/pexels-photo-7155530.jpeg"
+      alt="Placeholder banner image"
+    />
   );
   return (
     <section className="pt-20 md:pt-32 grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 gap-2 md:gap-4 p-4 md:p-8 bg-gray-100">
@@ -21,7 +24,7 @@ function Hero() {
         </div>
       </div>
       <div id="visual-container" className="flex justify-center items-center">
-        <div className="hero-image-container rounded-xl shadow-lg overflow-hidden ">
+        <div className="hero-image-container rounded-xl shadow-lg overflow-hidden max-w-md ">
           {heroImage}
         </div>
       </div>
